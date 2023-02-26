@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:polished_basalt"
+        },
+        "title": {
+            "text": "The After"
+        },
+        "description": {
+            "text": "There is no escape",
+            "color": "#54FC54"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:textures/block/grass_block_top.png",
+        "hidden": false
+    },
+    "criteria": {
+        "is_in_after": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "after:the_after"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "is_in_after"
+        ]
+    ]
+}

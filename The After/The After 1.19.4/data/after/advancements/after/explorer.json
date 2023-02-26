@@ -1,0 +1,209 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots",
+            "nbt": "{Damage:0}"
+        },
+        "title": {
+            "text": "Explorer"
+        },
+        "description": {
+            "text": "Find one of every structure",
+            "color": "#A800A8"
+        },
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "after:after/root",
+    "criteria": {
+        "after:cage": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:cage"
+                    }
+                }
+            }
+        },
+        "after:camp": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:camp"
+                    }
+                }
+            }
+        },
+        "after:crane": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:crane"
+                    }
+                }
+            }
+        },
+        "after:cross": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:cross"
+                    }
+                }
+            }
+        },
+        "after:gallows": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:gallows"
+                    }
+                }
+            }
+        },
+        "after:graveyard": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:graveyard"
+                    }
+                }
+            }
+        },
+        "after:house": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:house"
+                    }
+                }
+            }
+        },
+        "after:house_ruined": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:house_ruined"
+                    }
+                }
+            }
+        },
+        "after:pond": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:pond"
+                    }
+                }
+            }
+        },
+        "after:ravager_pen": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:ravager_pen"
+                    }
+                }
+            }
+        },
+        "after:respawn": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:respawn"
+                    }
+                }
+            }
+        },
+        "after:spire": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:spire"
+                    }
+                }
+            }
+        },
+        "after:tree_fallen": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:tree_fallen"
+                    }
+                }
+            }
+        },
+        "after:watch_tower": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "after:watch_tower"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "after:cage"
+        ],
+        [
+            "after:camp"
+        ],
+        [
+            "after:crane"
+        ],
+        [
+            "after:cross"
+        ],
+        [
+            "after:gallows"
+        ],
+        [
+            "after:graveyard"
+        ],
+        [
+            "after:house_ruined"
+        ],
+        [
+            "after:house"
+        ],
+        [
+            "after:pond"
+        ],
+        [
+            "after:ravager_pen"
+        ],
+        [
+            "after:respawn"
+        ],
+        [
+            "after:spire"
+        ],
+        [
+            "after:tree_fallen"
+        ],
+        [
+            "after:watch_tower"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

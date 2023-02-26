@@ -1,0 +1,249 @@
+{
+    "name": "after:spire/room",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/bubble_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/drip_leaves",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/fire_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/guardian",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/honey_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/ice_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/ladder",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/lava",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/maze_snow",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/minecart_puzzle",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/neo_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_1",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_2",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_3",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_4",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_5",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_6",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/parkour_puzzle",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/piston_rude",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/redstone_1",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/shulker",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/silverfish",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/skeleton",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/slime_jump",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/slime_piston",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/spider",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/stairs",
+                "projection": "rigid",
+                "processors": "after:spire"
+            }
+        }
+    ]
+}

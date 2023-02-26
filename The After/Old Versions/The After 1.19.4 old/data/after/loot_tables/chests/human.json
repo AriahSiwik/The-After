@@ -1,0 +1,563 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+		  "type": "minecraft:uniform",
+		  "min": 4,
+		  "max": 12
+		},
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 500,
+			"name": "minecraft:dried_kelp",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 2,
+					"max": 6
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 300,
+			"name": "minecraft:bone_meal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:iron_nugget",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": {
+					  "min": 4,
+					  "max": 16
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:coal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 300,
+			"name": "minecraft:rotten_flesh",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 4
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 300,
+			"name": "minecraft:stick"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 400,
+			"name": "minecraft:feather",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 250,
+			"name": "minecraft:flint"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:arrow",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 20,
+			"name": "minecraft:red_mushroom"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 20,
+			"name": "minecraft:brown_mushroom"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 20,
+			"name": "minecraft:light_blue_candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:string"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:golden_apple"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "minecraft:golden_carrot"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:raw_iron"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 150,
+			"name": "minecraft:warped_planks",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 3
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 150,
+			"name": "minecraft:glowstone_dust",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:bone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:bread"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "minecraft:ender_pearl"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 70,
+			"name": "minecraft:fire_charge"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:shears",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 0.5
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 6,
+			"name": "minecraft:leather_helmet",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.7
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 6,
+			"name": "minecraft:leather_chestplate",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.7
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 6,
+			"name": "minecraft:leather_leggings",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.7
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 6,
+			"name": "minecraft:leather_boots",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.7
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 4,
+			"name": "minecraft:shield",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.09,
+				  "max": 0.42
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 8,
+			"name": "minecraft:wooden_sword",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.4
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:healing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:strong_healing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 350,
+			"name": "minecraft:bowl"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 150,
+			"name": "minecraft:mushroom_stew"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 4,
+			"name": "minecraft:wooden_pickaxe",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.02,
+				  "max": 0.17
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:wooden_shovel",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.5
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 6,
+			"name": "minecraft:wooden_axe",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.5
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 40,
+			"name": "minecraft:paper"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:fishing_rod",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:spyglass"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 90,
+			"name": "minecraft:soul_torch",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 3,
+			"name": "minecraft:soul_campfire"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:cake"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "minecraft:bow",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.38
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 12,
+			"name": "after:other/nametags"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_helmet",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_chestplate",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_leggings",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_boots",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 120,
+			"name": "minecraft:cobblestone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 400,
+			"name": "minecraft:dirt",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				}
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"rolls": 1,
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:written_book",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{pages:['{\"text\":\"Entry 1\\\\n-------------------\\\\nThe last thing I remember before waking up in this god-forsaken place was a sword in my gut. I guess that would mean this is what happens after death...\\\\nI don\\'t have much paper, so I suppose I should only write what is necessary.\"}','{\"text\":\"Entry 2:\\\\n-------------------\\\\nThere\\'s no sun here so it\\'s hard to keep track of time, but it feels like it\\'s been weeks. I\\'ve discovered that I can use the purple shrines with glowstone to return to the same location after death. This is important for any chance of escape.\"}','{\"text\":\"This place is nothing if not desolate, but I hold firmly to hope regardless. If there\\'s even the slightest possibility that I can see my husband and my daughter Emily again, then there\\'s nothing that can get in my way... even those wretched skeletons...\"}','{\"text\":\"Entry 3:\\\\n-------------------\\\\nI think it\\'s been about a year now. I nearly vomit at the taste of kelp, but other than that, I have no further updates.\\\\n\\\\nEntry 4:\\\\n-------------------\\\\nI miss you E... I still hope to see the woman you\\'ve grown into.\\\\n \"}','{\"text\":\"Entry 5:\\\\n-------------------\\\\nI can\\'t be totally sure, but I\\'m almost positive I\\'ve spent as much time in here as I spent in the before world. Or perhaps it\\'s been much much longer. I\\'ve noticed my vocabulary start to get worse. Maybe I should try talking to myself more to not lose it.\"}','{\"text\":\"Entry 6:\\\\n-------------------\\\\nI\\'ve seen evidence of others here but never any other people... maybe I\\'ll find her here one day.\\\\n\\\\nEntry 7:\\\\n-------------------\\\\nI thought an afterlife would convince me god was real. It has done the opposite.\"}','{\"text\":\"Entry 8:\\\\n-------------------\\\\nno more pages. last two. no more skin. only dark bones. finally means real nothing I hope. no more words in head. only kill and survive. i read this book much to remeber. i wish i writed more when i came. I wish I lived more in the before...\"}','{\"text\":\"i don\\'t remember the before anymore. only words from this book. \\\\n\\\\ni think \\\\\"sun\\\\\" was good.\\\\n\\\\n\\\\\"sword\\\\\" was bad. \\\\n\\\\n\\\\\"husband\\\\\" some bad, mostly good.\\\\n\\\\n\\\\n\\\\\"Emily\\\\\" only good...\"}'],title:\"An Old Journal\",author:\"Clay Acaster\",generation:3}"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:written_book",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{pages:['{\"text\":\"Entry 1\\\\n-------------------\\\\nThe last thing I remember before waking up in this god-forsaken place was a sword in my gut. I guess that would mean this is what happens after death...\\\\nI don\\'t have much paper, so I suppose I should only write what is necessary.\"}','{\"text\":\"Entry 2:\\\\n-------------------\\\\nThere\\'s no sun here so it\\'s hard to keep track of time, but it feels like it\\'s been weeks. I\\'ve discovered that I can use the purple shrines with glowstone to return to the same location after death. This is important for any chance of escape.\"}','{\"text\":\"This place is nothing if not desolate, but I hold firmly to hope regardless. If there\\'s even the slightest possibility that I can see my husband and my daughter Emily again, then there\\'s nothing that can get in my way... even those wretched skeletons...\"}','{\"text\":\"Entry 3:\\\\n-------------------\\\\nI think it\\'s been about a year now. I nearly vomit at the taste of kelp, but other than that, I have no further updates.\\\\n\\\\nEntry 4:\\\\n-------------------\\\\nI miss you E... I still hope to see the woman you\\'ve grown into.\\\\n \"}','{\"text\":\"Entry 5:\\\\n-------------------\\\\nI can\\'t be totally sure, but I\\'m almost positive I\\'ve spent as much time in here as I spent in the before world. Or perhaps it\\'s been much much longer. I\\'ve noticed my vocabulary start to get worse. Maybe I should try talking to myself more to not lose it.\"}','{\"text\":\"Entry 6:\\\\n-------------------\\\\nI\\'ve seen evidence of others here but never any other people... maybe I\\'ll find her here one day.\\\\n\\\\nEntry 7:\\\\n-------------------\\\\nI thought an afterlife would convince me god was real. It has done the opposite.\"}','{\"text\":\"Entry 8:\\\\n-------------------\\\\nno more pages. last two. no more skin. only dark bones. finally means real nothing I hope. no more words in head. only kill and survive. i read this book much to remeber. i wish i writed more when i came. I wish I lived more in the before...\"}','{\"text\":\"i don\\'t remember the before anymore. only words from this book. \\\\n\\\\ni think \\\\\"sun\\\\\" was good.\\\\n\\\\n\\\\\"sword\\\\\" was bad. \\\\n\\\\n\\\\\"husband\\\\\" some bad, mostly good.\\\\n\\\\n\\\\n\\\\\"Emily\\\\\" only good...\"}'],title:\"An Old Journal\",author:\"Clay Acaster\",generation:3}"
+			  }
+			]
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:random_chance",
+			"chance": 0.2
+		  }
+		]
+	  }
+	]
+  }
+  

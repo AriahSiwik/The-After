@@ -1,0 +1,455 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+		  "type": "minecraft:uniform",
+		  "min": 5,
+		  "max": 12
+		},
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 400,
+			"name": "minecraft:dried_kelp",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 4,
+					"max": 10
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:bone_meal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 150,
+			"name": "minecraft:iron_nugget",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 3,
+					"max": {
+					  "min": 6,
+					  "max": 14
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:coal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:rotten_flesh",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 4
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 250,
+			"name": "minecraft:stick"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:feather",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 3
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 90,
+			"name": "minecraft:flint"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 240,
+			"name": "minecraft:arrow",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 2,
+					"max": 5
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:chorus_fruit"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:red_mushroom"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 75,
+			"name": "minecraft:brown_mushroom"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 40,
+			"name": "minecraft:light_blue_candle"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:string",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:cobweb"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "minecraft:golden_apple"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:golden_carrot"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:respawn_anchor"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 20,
+			"name": "minecraft:raw_iron"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:warped_planks"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 250,
+			"name": "minecraft:glowstone_dust",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": {
+					  "min": 1,
+					  "max": 2
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 25,
+			"name": "minecraft:glowstone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:bone"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:bread"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 15,
+			"name": "minecraft:ender_pearl"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:fire_charge"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 4,
+			"name": "minecraft:tipped_arrow",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{Potion:\"minecraft:poison\"}"
+			  },
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 2,
+					"max": 6
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:shears",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.4,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_helmet",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_chestplate",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_leggings",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:chainmail_boots",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 3,
+			"name": "minecraft:shield",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.15,
+				  "max": 0.8
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:stone_sword",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.69
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 2,
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:healing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:splash_potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:strong_healing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:shulker_shell"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:elytra",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.2,
+				  "max": 1
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:bow",
+			"functions": [
+			  {
+				"function": "minecraft:set_damage",
+				"damage": {
+				  "min": 0.1,
+				  "max": 0.4
+				}
+			  },
+			  {
+				"function": "minecraft:enchant_randomly",
+				"enchantments": [
+				  "minecraft:flame",
+				  "minecraft:power",
+				  "minecraft:punch"
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:trident",
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"enchantments": [
+				  "minecraft:riptide",
+				  "minecraft:impaling",
+				  "minecraft:loyalty"
+				]
+			  }
+			],
+			"conditions": [
+			  {
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 1,
+			"name": "minecraft:enchanted_golden_apple",
+			"conditions": [
+			  {
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			  }
+			]
+		  },
+		  {
+			  "type": "minecraft:item",
+			  "weight": 40,
+			  "name": "minecraft:paper"
+		  }
+		]
+	  }
+	]
+  }
+  

@@ -1,0 +1,766 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+        {
+            "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:deepslate_bricks",
+            "probability": 0.05
+            },
+            "output_state": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+            }
+        }
+        ]
+    },
+    {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:chest",
+              "probability": 0.42
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "north",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.16666666666666666
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/junk"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "north",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.4
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/good"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "north",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 1.0
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "north",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/mid"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "east",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.16666666666666666
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/junk"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "east",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.4
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/good"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "east",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 1.0
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "east",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/mid"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "west",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.16666666666666666
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/junk"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "west",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.4
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/good"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "west",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 1.0
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "west",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/mid"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "south",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.16666666666666666
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/junk"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "south",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.4
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/good"}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:chest",
+                "Properties": {
+                  "facing": "south",
+                  "type": "single",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 1.0
+            },
+            "output_state": {
+              "Name": "minecraft:trapped_chest",
+              "Properties": {
+                "type": "single",
+                "facing": "south",
+                "waterlogged": "false"
+              }
+            },
+            "output_nbt": {"LootTable":"after:chests/mid"}
+          }
+        ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gray_wool",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gray_wool",
+            "probability": 1
+          },
+          "output_state": {
+            "Name": "minecraft:light_gray_wool"
+          }
+        }
+      ]
+    },
+    {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.037037037037037035
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:cave_spider"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.038461538461538464
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:blaze"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.04
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:wither_skeleton","HandItems":[{"id":"minecraft:stone_sword","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.041666666666666664
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:spider"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.043478260869565216
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:slime"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.045454545454545456
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:skeleton","HandItems":[{"id":"minecraft:bow","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.047619047619047616
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:stray","HandItems":[{"id":"minecraft:bow","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.05
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:vindicator","HandItems":[{"id":"minecraft:iron_axe","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.05263157894736842
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:witch"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.05555555555555555
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:zombie"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.058823529411764705
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:husk"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.0625
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:pillager","HandItems":[{"id":"minecraft:crossbow","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.06666666666666667
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:enderman"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.07142857142857142
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:magma_cube"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.07692307692307693
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:zoglin"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.08333333333333333
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:hoglin"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.09090909090909091
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:piglin","HandItems":[{"id":"minecraft:golden_sword","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.1
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:zombified_piglin","HandItems":[{"id":"minecraft:golden_sword","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.1111111111111111
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:piglin_brute","HandItems":[{"id":"minecraft:golden_axe","Count":1},{}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.125
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"DeathTime":300,"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:vex"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.14285714285714285
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:phantom"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.16666666666666666
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:silverfish"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:endermite"}}}
+          }, 
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.25
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnCount":1,"RequiredPlayerRange":16,"MaxNearbyEntities":1,"MaxSpawnDelay":500,"MinSpawnDelay":300,"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:ravager"}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.3333333333333333
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnCount":2,"RequiredPlayerRange":16,"MaxNearbyEntities":8,"MaxSpawnDelay":20,"MinSpawnDelay":3,"SpawnData":{"entity":{"Health":0.5,"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:husk","ArmorItems":[{},{},{},{"id":"minecraft:light_gray_stained_glass","Count":1}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 0.5
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:skeleton","HandItems":[{},{}],"ActiveEffects":[{"ShowParticles":1,"Duration":999999,"Id":14,"Amplifier":1}]}}}
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:light_gray_wool",
+              "probability": 1.0
+            },
+            "output_state": {
+              "Name": "minecraft:spawner"
+            },
+            "output_nbt": {"SpawnData":{"entity":{"Passengers":[{"HandDropChances":[0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:skeleton","HandItems":[{"id":"minecraft:bow","Count":1},{}]}],"HandDropChances":[0.0,0.0],"ArmorDropChances":[0.0,0.0,0.0,0.0],"DeathLootTable":"after:kelp","id":"minecraft:phantom"}}}
+          }
+        ]
+    }
+    ]
+}

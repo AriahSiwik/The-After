@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:simple_block",
+	"config": {
+		"to_place": {
+			"type": "minecraft:noise_threshold_provider",
+			"seed": 2345,
+			"noise": {
+				"firstOctave": 0,
+				"amplitudes": [
+					1
+				]
+			},
+			"scale": 0.005,
+			"threshold": -0.8,
+			"high_chance": 0.33333334,
+			"default_state": {
+				"Name": "minecraft:wither_rose"
+			},
+			"low_states": [
+				{
+					"Name": "minecraft:dead_fire_coral",
+					"Properties": {
+						"waterlogged": "false"
+					}
+				}
+			],
+			"high_states": [
+				{
+					"Name": "minecraft:dead_horn_coral",
+					"Properties": {
+						"waterlogged": "false"
+					}
+				}
+			]
+		}
+	}
+}

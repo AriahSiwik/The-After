@@ -1,0 +1,66 @@
+{
+    "structures": [
+        {
+            "structure": "after:cage",
+            "weight": 1
+        },
+        {
+            "structure": "after:camp",
+            "weight": 1
+        },
+        {
+            "structure": "after:cross",
+            "weight": 1
+        },
+        {
+            "structure": "after:gallows",
+            "weight": 1
+        },
+        {
+            "structure": "after:graveyard",
+            "weight": 1
+        },
+        {
+            "structure": "after:house_ruined",
+            "weight": 1
+        },
+        {
+            "structure": "after:house",
+            "weight": 1
+        },
+        {
+            "structure": "after:pond",
+            "weight": 1
+        },
+        {
+            "structure": "after:ravager_pen",
+            "weight": 1
+        },
+        {
+            "structure": "after:respawn",
+            "weight": 2
+        },
+        {
+            "structure": "after:tree_fallen",
+            "weight": 1
+        },
+        {
+            "structure": "after:spire",
+            "weight": 1
+        },
+        {
+            "structure": "after:watch_tower",
+            "weight": 1
+        },
+        {
+            "structure": "after:crane",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 8,
+        "separation": 4,
+        "salt": 4628
+    }
+}

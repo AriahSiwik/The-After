@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_bricks"
+        },
+        "title": {
+            "text": "Slay the Spire"
+        },
+        "description": {
+            "text": "Defeat the boss of a spire",
+            "color": "#54FC54"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "after:after/root",
+    "criteria": {
+        "kill_spire_boss": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"spire_boss\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill_spire_boss"
+        ]
+    ]
+}

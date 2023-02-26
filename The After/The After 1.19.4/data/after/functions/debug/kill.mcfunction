@@ -1,0 +1,1 @@
+kill @e[type=!player,type=!shulker,type=!armor_stand,type=!area_effect_cloud,type=!marker,type=!item_frame,type=!glow_item_frame,type=!minecart,type=!boat]
