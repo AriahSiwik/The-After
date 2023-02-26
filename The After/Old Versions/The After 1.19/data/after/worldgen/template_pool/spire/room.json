@@ -1,0 +1,123 @@
+{
+    "name": "after:spire/room",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/guardian",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/husk",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/invisible",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/maze_snow",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/phantom_jockey",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/piglin",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/pillager",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/ravager",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/shulker",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/silverfish",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/skeleton",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/spider",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/room/witch",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        }
+    ]
+}

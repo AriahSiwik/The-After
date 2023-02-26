@@ -1,0 +1,15 @@
+{
+    "name": "after:spire/top",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "after:spire/top",
+                "projection": "rigid",
+                "processors": "after:crack_deepslate_bricks_5_percent"
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	"type": "after:the_after",
+	"generator": {
+	  "type": "minecraft:noise",
+	  "settings": "after:the_after",
+	  "biome_source": {
+		"type": "minecraft:multi_noise",
+		"biomes": [
+		  {
+			"biome": "after:after_wastes",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": 0,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  }
+		]
+	  }
+	}
+  }
+  

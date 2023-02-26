@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "after:respawn",
+        "size": 1
+    },
+    "biomes": "after:after_wastes",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

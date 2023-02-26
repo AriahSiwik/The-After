@@ -1,0 +1,751 @@
+{
+	"pools": [
+	  {
+		"rolls": {
+			"min": 7,
+			"max": 12
+		},
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"weight": 400,
+			"name": "minecraft:glowstone_dust",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 2,
+					"max": 4
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 69,
+			"name": "minecraft:glowstone",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 1,
+					"max": 2
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 225,
+			"name": "minecraft:arrow",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 4,
+					"max": 8
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:iron_nugget",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 5,
+					"max": {
+					  "min": 10,
+					  "max": 20
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 60,
+			"name": "minecraft:raw_iron"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 50,
+			"name": "minecraft:warped_hyphae"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 200,
+			"name": "minecraft:warped_planks",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 3,
+					"max": 6
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:ender_pearl",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 300,
+			"name": "minecraft:golden_carrot",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 4,
+					"max": 6
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 100,
+			"name": "minecraft:golden_apple"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 12,
+			"name": "minecraft:bucket"
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 75,
+			"name": "minecraft:tnt",
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": {
+					"min": 2,
+					"max": 5
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 15,
+			"name": "minecraft:potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:strong_healing"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 10,
+			"name": "minecraft:potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_potion",
+				"id": "minecraft:strength"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 32,
+			"name": "minecraft:potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomPotionEffects:[{Id:3,Amplifier:1,Duration:6000,Ambient:1b},{Id:4,Amplifier:2,Duration:6000,Ambient:1b},{Id:21,Amplifier:4,Duration:6000,Ambient:1b}],CustomPotionColor:9737364,display:{Name:'{\"text\":\"Potion of the Spire\",\"italic\":false}',Lore:['{\"text\":\"Health Boost V (5:00)\",\"italic\":false,\"color\":\"#5454FC\"}','{\"text\":\"Mining Fatigue III (5:00)\",\"italic\":false,\"color\":\"#FC5454\"}','{\"text\":\"Haste II (5:00)\",\"italic\":false,\"color\":\"#5454FC\"}','{\"text\":\"\"}','{\"text\":\"When Applied:\",\"italic\":false}','{\"text\":\"+20 Max Health\",\"italic\":false,\"color\":\"#5454FC\"}','{\"text\":\"-97% Mining Speed\",\"italic\":false,\"color\":\"#FC5454\"}']},HideFlags:32}"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"weight": 7,
+			"name": "minecraft:potion",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomPotionEffects:[{Id:11,Amplifier:69,Duration:1,ShowParticles:0b}],CustomPotionColor:2870136,display:{Name:'{\"text\":\"Potion of Escape\",\"italic\":false}',Lore:['{\"text\":\"Teleport Away\",\"italic\":false,\"color\":\"#5454FC\"}']},HideFlags:32}"
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		  "rolls": {
+			  "min": 1,
+			  "max": {
+				  "min": 1,
+				  "max": {
+					  "min": 1,
+					  "max": 3
+				  }
+			  }
+		  },
+		  "entries": [
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:enchanted_golden_apple"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:totem_of_undying"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_helmet",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_chestplate",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_leggings",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_boots",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_pickaxe",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_sword",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 5,
+					  "max": {
+						"min": 10,
+						"max": {
+						  "min": 15,
+						  "max": 30
+						}
+					  }
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 7,
+			  "name": "minecraft:iron_axe",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:sharpness",
+					"minecraft:smite"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 5,
+			  "name": "minecraft:trident",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:riptide",
+					"minecraft:loyalty",
+					"minecraft:impaling"
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 15,
+			  "name": "minecraft:shield"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 25,
+			  "name": "minecraft:bow",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 7,
+					  "max": {
+						  "min": 15,
+						  "max": 30
+					  }
+					}
+				  },
+				  "treasure": false
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_helmet",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:binding_curse",
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_chestplate",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:binding_curse",
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_leggings",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:binding_curse",
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_boots",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:binding_curse",
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_shovel",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_axe",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:sharpness",
+					"minecraft:smite"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 2,
+			  "name": "minecraft:diamond_sword",
+			  "functions": [
+				{
+				  "function": "minecraft:enchant_with_levels",
+				  "levels": {
+					"min": 1,
+					"max": {
+					  "min": 15,
+					  "max": 30
+					}
+				  },
+				  "treasure": false,
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.3
+					}
+				  ]
+				},
+				{
+				  "function": "minecraft:enchant_randomly",
+				  "enchantments": [
+					"minecraft:vanishing_curse"
+				  ],
+				  "conditions": [
+					{
+					  "condition": "minecraft:random_chance",
+					  "chance": 0.1
+					}
+				  ]
+				}
+			  ]
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 10,
+			  "name": "minecraft:respawn_anchor"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 20,
+			  "name": "minecraft:elytra"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 10,
+			  "name": "minecraft:light_gray_shulker_box",
+			  "functions": [
+				{
+				  "function": "minecraft:set_nbt",
+				  "tag": "{BlockEntityTag:{LootTable:\"after:chests/junk\", id:\"minecraft:shulker_box\"}}"
+				}
+			  ]
+			}
+		  ]
+	  }
+	]
+  }
+  
